@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "gbdeviceinfo",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/lmirosevic/GBDeviceInfo.git",
+      "state" : {
+        "revision" : "f746467bc807c4014adf8acbb6524e3326388d73",
+        "version" : "7.2.0"
+      }
+    },
+    {
+      "identity" : "swiftyruler",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/fatihbalsoy/SwiftyRuler.git",
+      "state" : {
+        "revision" : "c2bfae9d9800a8da9644652f1eac63564822ecc6",
+        "version" : "1.0.0"
+      }
+    }
+  ],
+  "version" : 2
+}
