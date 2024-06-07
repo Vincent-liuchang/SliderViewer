@@ -52,6 +52,7 @@ struct CanvasView: View {
                     if controlViewModel.showDigitCopy {
                         EditableCircularProfileImage(viewModel: importImageViewModel, controlViewModel: controlViewModel)
                             .offset(controlViewModel.imageOffset)
+                            .scaleEffect(controlViewModel.imageScale)
                             .gesture(
                                 DragGesture()
                                     .onChanged { gesture in
